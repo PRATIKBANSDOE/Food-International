@@ -1,0 +1,169 @@
+.header {
+	padding: -30px;
+	border: 2px solid transparent;
+	grid-template-columns: repeat(4,1fr);
+	display: grid;
+	grid-gap: 10px;
+	color: lightsteelblue;
+}
+
+.logo {
+	padding-top: 30px;
+}
+.home {
+	font-family: cursive;
+	color: lightsteelblue;
+}
+
+.about {
+	font-family: cursive;
+	color: lightsteelblue;
+}
+
+.foods {
+	font-family: cursive;
+	color: lightsteelblue;
+}
+
+#select1 {
+	padding-top: 90px;
+	
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background: linear-gradient(to right, grey , lightsteelblue);
+}
+
+#logo {
+	border: 2px solid transparent;
+	border-radius: 100px;
+}
+
+.home :hover {
+	transition: ease-in .2s;
+	color: lightsteelblue;
+}
+
+.about :hover {
+	transition: ease-in .2s;
+	color: lightsteelblue;
+}
+
+.foods :hover {
+	transition: ease-in .2s;
+	color: lightsteelblue;
+}
+
+.american {
+	height: 20vh;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+	color: black;
+	box-shadow: 20px;
+	font-size: 30px;
+	font-family: cursive;
+	border-bottom: 2px dashed red;
+	
+}
+
+.div1 {
+	grid-template-columns: 1fr 1fr;
+	display: grid;
+	grid-gap: 5px;
+	height: 30vh;
+	border-top: 2px solid red;
+}
+
+.pictures {
+	display: grid;
+	gri-gap: 10px;
+	height: 35vh;
+}
+
+#pork {
+	margin-left: 30px;
+}
+
+.def1 {
+	padding: 30px;
+}
+
+#europe {
+	margin-left: 30px;
+	margin-top: 0px;
+}
+
+.european {
+	height: 20vh;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+	color: black;
+	box-shadow: 20px;
+	font-size: 30px;
+	font-family: cursive;
+	border-top: 2px solid red;
+	margin-top: 30px;
+	
+}
+
+.def2 {
+	padding: 30px;
+}
+
+#sec1 {
+	padding-top: 20px;
+}
+
+.div2 {
+	grid-template-columns: 1fr 1fr;
+	display: grid;
+	grid-gap: 5px;
+	height: 30vh;
+	border-top: 2px solid red;
+}
+
+.div3 {
+	grid-template-columns: 1fr 1fr;
+	display: grid;
+	grid-gap: 5px;
+	height: 30vh;
+	border-top: 2px solid red;
+}
+
+.def3 {
+	padding: 30px;
+}
+
+.asia {
+	height: 20vh;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+	color: black;
+	box-shadow: 20px;
+	font-size: 30px;
+	font-family: cursive;
+	border-top: 2px solid red;
+	margin-top: 30px;
+	
+}
+
+#last {
+	margin-left: 30px;
+	margin-top: 0px;
+}
+
+.footer {
+	padding: 15px;
+	border-bottom: 2px solid red;
+	color: white;
+	font-family: verdana;
+	text-align: center;
+}
+

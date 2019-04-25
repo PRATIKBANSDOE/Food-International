@@ -1,0 +1,86 @@
+.header {
+	padding: -30px;
+	border: 2px solid transparent;
+	grid-template-columns: repeat(4,1fr);
+	display: grid;
+	grid-gap: 10px;
+	color: lightsteelblue;
+}
+
+.logo {
+	padding-top: 30px;
+}
+.home {
+	font-family: cursive;
+	color: lightsteelblue;
+}
+
+.about {
+	font-family: cursive;
+	color: lightsteelblue;
+}
+
+.foods {
+	font-family: cursive;
+	color: lightsteelblue;
+}
+
+#select1 {
+	padding-top: 90px;
+	
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background-image: url(../images/body.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+img {
+	border: 2px solid transparent;
+	border-radius: 100px;
+}
+
+.first {
+	height: 30vh;
+	border-bottom: 4px solid red;
+	text-align: center;
+	font-family: cursive;
+	color: white;
+	background: grey;
+	padding: 30px;
+	
+}
+
+.home :hover {
+	transition: ease-in .2s;
+	color: lightsteelblue;
+}
+
+.about :hover {
+	transition: ease-in .2s;
+	color: lightsteelblue;
+}
+
+.foods :hover {
+	transition: ease-in .2s;
+	color: lightsteelblue;
+}
+
+.footer {
+	padding: 15px;
+	border-bottom: 2px solid red;
+	color: white;
+	font-family: verdana;
+	text-align: center;
+	margin-top: 390px;
+}
+
+
+
+
+

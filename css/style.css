@@ -1,0 +1,152 @@
+.header {
+	padding: -30px;
+	border: 2px solid transparent;
+	grid-template-columns: repeat(4,1fr);
+	display: grid;
+	grid-gap: 10px;
+	color: lightsteelblue;
+}
+
+.logo {
+	padding-top: 30px;
+}
+.home {
+	font-family: cursive;
+	color: lightsteelblue;
+}
+
+.about {
+	font-family: cursive;
+	color: lightsteelblue;
+}
+
+.foods {
+	font-family: cursive;
+	color: lightsteelblue;
+}
+
+#select1 {
+	padding-top: 90px;
+	
+}
+
+a {
+	text-decoration: none;
+}
+
+.home :hover {
+	transition: ease-in .2s;
+	color: lightsteelblue;
+}
+
+.about :hover {
+	transition: ease-in .2s;
+	color: lightsteelblue;
+}
+
+.foods :hover {
+	transition: ease-in .2s;
+	color: lightsteelblue;
+}
+
+.content1 {
+	grid-template-columns: 1fr 1fr;
+	display: grid;
+	grid-gap: 10px;
+	padding: 15px;
+	height: 30vh;
+}
+
+.food {
+	padding: 30px;
+	border: 2px inset grey;
+	background: #CC527A;
+	color: white;
+	font-size: 30px;
+	font-family: cursive, sans-serif;
+	text-align: center;
+}
+
+.food2 {
+	grid-template-rows: 1fr 1fr;
+	display: grid;
+	grid-gap: 10px;
+}
+
+.food3 {
+	padding: 15px;
+	border: 2px outset grey;
+	color: white;
+	text-align: center;
+	background-image: url(../images/slide4.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-size: 20px;
+}
+
+.food4 {
+	padding: 15px;
+	border: 2px outset grey;
+	text-align: center;
+	color: lightsteelblue;
+	background: linear-gradient(to right, #1d4350 , #a43931);
+	
+}
+
+body {
+	background-image: url(../images/body.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+img {
+	border: 2px solid transparent;
+	border-radius: 100px;
+}
+
+.content2 {
+	height: 30vh;
+	padding: 15px;
+	border: 2px solid transparent;
+	grid-template-columns: 1fr 1fr;
+	display: grid;
+	grid-gap: 10px;
+	padding-top: 100px;
+	height: 30vh;
+}
+
+.content3 {
+	border: 2px outset orangered;
+	border-radius: 15px;
+	background-image: url(../images/wood.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 30vh;
+	text-align: center;
+	color: lightsteelblue;
+	font-family: cursive;
+	
+}
+
+.content4 {
+	border: 2px outset orangered;
+	border-radius: 15px;
+	background-image: url(../images/wood.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: lightsteelblue;
+	font-family: cursive;
+}
+
+.footer {
+	padding: 15px;
+	border-bottom: 2px solid red;
+	color: white;
+	font-family: verdana;
+	text-align: center;
+}
+
+#fact {
+	padding-top: 50px;
+}
