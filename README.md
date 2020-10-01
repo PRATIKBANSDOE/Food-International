@@ -1,2 +1,2 @@
 # Food Anatomy-International
-Always eat healthy organic and clean food.
+Always eat healthy,organic and clean food.
